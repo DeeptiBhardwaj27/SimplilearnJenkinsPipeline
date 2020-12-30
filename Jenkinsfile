@@ -25,7 +25,6 @@ stage ('Deploy Stage'){
             steps {
             echo 'Hello, Deployment'
            sh 'java -version'
-           sh 'java -jar SpringBootProjectSimplilearn.jar'
            }
           }
          }
